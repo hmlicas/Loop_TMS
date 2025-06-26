@@ -1,0 +1,23 @@
+{
+  "exp_name": "task_pred_tms_baseline_2back",
+  "train_data": "/data/hmli_comp/tms_decoding/data/tc_data_task_pred_tf_2back_rs3_finetune/dat_for_finetune.mat",
+  "validation_data": "/data/hmli_comp/tms_decoding/data/tc_data_task_pred_tf_2back_rs3_finetune/dat_for_finetune.mat",
+  "is_training": "True",
+  "model_input": "/data/hmli_comp/tms_decoding/results/tms_baseline_2back_model_rs3_v2",
+  "model_output": "/data/hmli_comp/tms_decoding/results/tms_baseline_2back_model_rs3_finetune",
+  "test_data": "/data/hmli_comp/tms_decoding/data/tc_data_task_pred_tf_2back_rs3_finetune/dat_for_finetune_test.mat",
+  "test_output_dir": "/data/hmli_comp/tms_decoding/results/tms_baseline_2back_test_rs3_finetune",
+  "num_epochs": 2,
+  "num_iter_per_epoch": 5000,
+  "learning_rate": 0.0001,
+  "decay_steps": 20000,
+  "decay_rate": 0.1,
+  "batch_size": 32,
+  "step_num": 25,
+  "fea_num": 49,
+  "num_hidden_layers": 2,
+  "hidden_num": 128,
+  "output_num": 2,
+  "dropout_keep_rate": 0.8,
+  "max_to_keep": 10
+}
